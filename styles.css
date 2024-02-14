@@ -1,16 +1,14 @@
 .body{
-width: 1440px;
-height: 2592px;
 background: #fff;
 }
 
 /*NAV MENU -- TOP LINE*/
 
-.top-line{
+/* .top-line{
 width: 1440px;
 height: 72px;
-/* position: fixed;    */
-}
+position: fixed;   
+} */
 
 .top-line1{
 width: 1440px;
