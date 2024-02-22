@@ -2,36 +2,53 @@
 background: #fff;
 }
 ul,a, h1,h3{
-    margin: 0px;
+    padding-inline-start: 94px 0px;
 }
 
-.container {
+.container{
     width: 1200px;
-    margin: 0 auto;
+    position: absolute;
+    display: flex;
+    left: 50%;
+    transform: translate( -50%);
+    justify-content: center;
     
+}
+
+.section94px{
+    padding: 94px 0px;
+}
+
+.top-line>.container {
+    height: 72px;
+}
+
+.hero-image>.container{
+height: 600px;
 }
 
 /*NAV MENU -- TOP LINE*/
 
 .top-line{
-width: 1440px;
+width: auto;
 height: 72px;
 background: #fff;
 border-bottom: 1px solid #e7e9fc;
 display: flex;
 align-items: center;
 /* position: fixed; */
+
 }
 
 .logo{
+padding-top: 24px;
 display: flex;
 align-items: center;
 justify-content: flex-start;
 flex-direction: row;
 gap: 0px;
-width: 271px;
-height: 24px;
-padding-left: 156px;
+width: 115px;
+height: 48px;
 position: relative;
 }
 
@@ -44,6 +61,7 @@ line-height: 1.16667;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+
 }
 
 .studio-logo{
@@ -64,8 +82,9 @@ justify-content: flex-start;
 flex-direction: row;
 gap: 40px;
 width: 337px;
-height: 24px;
+height: 48px;
 padding-left: 76px;
+padding-top: 24px;
 }
 
 .nav-studio, .nav-portfolio, .nav-contacts {
@@ -83,10 +102,11 @@ align-items: flex-start;
 justify-content: flex-start;
 flex-direction: row;
 width: 676px;
-height: 24px;
+height: 48px;
 display: flex;
 position: relative;
-padding-left: 332px
+padding-left: 332px;
+padding-top: 24px;
 }
 
 .email{
@@ -122,19 +142,27 @@ text-decoration: none;
 /* --HERO IMAGE-- */
 
 .hero-image{
-width: 1440px;
+width: auto;
 height: 600px;
 background: var(--NAVY-BLUE, #2E2F42);
-flex-shrink: 0;   
+flex-shrink: 0; 
+ 
+}
+
+.hero-image>.container{
+    display: block;
 }
 
 .button {
-display: flex;
-width: 805px;
+/* display: flex; */
+width: 684px;
 height: 104px;
 padding-top: 48px;
-padding-left: 636px; 
+padding-left: 515px;
+
 }
+
+
 
 .order-service {
 font-family: "Roboto", sans-serif;
@@ -169,13 +197,22 @@ color: var(--WHITE, #FFF);
 padding-top: 188px;
 }
 
-/*SECTION 1*/
+/*SECTION 1 & 2*/
+
+.section1-2{
+    height: 876px;
+    width: auto;
+}
+
+.section1-2>.container{
+    display: block;
+}
 
 .section1{
-width: 1284px;
+width: 1128px;
 height: 224px;
 padding-top: 120px;
-padding-left: 156px;
+
 display: flex;
 }
 
@@ -221,11 +258,11 @@ color: var(--SLATE, #434455);
 /*SECTION 2*/
 
 .section2{
-width: 1284px;
+width: 1128px;
 height: 652px;
 flex-shrink: 0;
 padding-top: 120px;
-padding-left: 156px;
+
 padding-bottom:120px;   
 }
 
@@ -273,18 +310,24 @@ height: 300px;
 /*SECTION 3 */
 
 .section3{
-width: 1440px;
+width: auto;
 height: 732px;
 background: #f4f4fd;
 flex-shrink: 0;
+
+}
+
+.section3>.container{
+    display: block;
+    height: 732px;
 }
 
 .title1{
 display: flex;
-Width: 801px; 
+Width: 647px; 
 Height: 160px;
 padding-top: 120px;
-padding-left: 639px;
+padding-left: 483px;
 }
 
 .our-team{
@@ -300,11 +343,11 @@ margin: 0px;
 }
 
 .pepole{
-width: 1284px;
+width: 1128px;
 height: 452px;
 display: flex;
 padding-top: 72px;
-padding-left: 156px;
+
 }
 
 ul {
@@ -371,17 +414,20 @@ cursor: pointer;
 /*FOOTER*/
 
 .footer{
-width: 1440px;
+width: 100%;
 height: 312px;
 background: #2e2f42;
 flex-shrink: 0;
 }
+.footer>.container{
+    display: block;
+    height: 312px;
+}
 
 .logo-text{
-width: 420px;
+width: 264px;
 height: 213.5px;
 flex-shrink: 0;
-padding-left: 156px;
 padding-top: 101.5px;
 }
 
@@ -451,17 +497,26 @@ margin: 0px;
 }
 
 /*PORTFOLIO CSS*/
+.portfolio-main{
+width: 100%;
+height: 1692px;
 
+}
+
+.portfolio-main>.container{
+    height: 1692px;
+    display: block;
+}
 .filters{
 display: flex;
 align-items: flex-start;
 justify-content: flex-start;
 flex-direction: row;
 gap: 24px;
-width: 1013px;
+width: 857px;
 height: 144px;
 padding-top: 96px;
-padding-left: 427px;
+padding-left: 271px;
 }
 
 .all-butoon{
@@ -568,9 +623,8 @@ font-family: "Roboto", sans-serif;
 /*Section row*/
 
 .row-1{
-width: 1284px;
+width: 1128px;
 height: 492px;
-padding-left: 156px;
 padding-top: 72px;
     
 }
@@ -578,14 +632,14 @@ padding-top: 72px;
 .row-2{
 width: 1128px;
     height: 468px;
-    padding-left: 156px;
+    
     padding-top: 48px;
 }
 
 .row-3{
 width: 1128px;
     height: 588px;
-    padding-left: 156px;
+    
     padding-top: 48px;
     padding-bottom: 120px;
 }
