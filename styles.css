@@ -542,6 +542,21 @@ margin: 0;
     width: 69px;
     height: 48px;
     padding: 0px;
+    z-index: 1;
+    position: absolute;
+    
+}
+
+ .mysvg {
+    
+transform: translateX(60px) translateY(45px);
+position: relative;
+z-index: 0;
+position: absolute;
+   
+}
+.btn1-position{
+  margin-left: 69px;  
 }
 
 .web-site{
@@ -562,6 +577,7 @@ font-family: "Roboto", sans-serif;
     justify-content: center;
     width: 116px;
     height: 48px;
+    
 }
 
 .app{
