@@ -17,6 +17,7 @@ ul,a, h1,h3{
 
 .section94px{
     padding: 94px 0px;
+    /* height: auto; */
 }
 
 .top-line>.container {
@@ -159,6 +160,7 @@ width: 684px;
 height: 104px;
 padding-top: 48px;
 padding-left: 515px;
+padding-bottom: 150px;
 
 }
 
@@ -194,24 +196,25 @@ line-height: 60px;
 letter-spacing: 0.02em;
 text-align: center;
 color: var(--WHITE, #FFF);
-padding-top: 188px;
+padding-top: 94px;
 }
 
 /*SECTION 1 & 2*/
 
 .section1-2{
-    height: 876px;
+    height: 1064px;
     width: auto;
+    padding-bottom:26px;
 }
 
 .section1-2>.container{
     display: block;
-}
+} 
 
 .section1{
 width: 1128px;
 height: 224px;
-padding-top: 120px;
+padding-top: 26px;
 
 display: flex;
 }
@@ -263,7 +266,7 @@ height: 652px;
 flex-shrink: 0;
 padding-top: 120px;
 
-padding-bottom:120px;   
+padding: bottom 26px;   
 }
 
 .Section2-title{
@@ -325,8 +328,8 @@ flex-shrink: 0;
 .title1{
 display: flex;
 Width: 647px; 
-Height: 160px;
-padding-top: 120px;
+Height: 40px;
+padding-top: 26px;
 padding-left: 483px;
 }
 
@@ -426,9 +429,9 @@ flex-shrink: 0;
 
 .logo-text{
 width: 264px;
-height: 213.5px;
+height: 118.5px;
 flex-shrink: 0;
-padding-top: 101.5px;
+padding-top: 7.5px;
 }
 
 .logo-footer{
@@ -514,9 +517,10 @@ justify-content: flex-start;
 flex-direction: row;
 gap: 24px;
 width: 857px;
-height: 144px;
-padding-top: 96px;
+height: 50px;
+padding-top: 2px;
 padding-left: 271px;
+margin: 0;
 }
 
 .all-butoon{
@@ -638,10 +642,10 @@ width: 1128px;
 
 .row-3{
 width: 1128px;
-    height: 588px;
+    height: 494px;
     
     padding-top: 48px;
-    padding-bottom: 120px;
+    padding-bottom: 26px;
 }
 
 .row-1, .row-2, .row-3, li{
